@@ -1,0 +1,7 @@
+# Personligt och tredjepartsdata – stannar lokalt (skapas av appen: kör start.command)
+data/
+__pycache__/
+.pytest_cache/
+.claude/
+.DS_Store
+*.tmp

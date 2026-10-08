@@ -1,0 +1,20 @@
+# Allt körs lokalt: servern lyssnar bara på din egen dator och ingen telemetri skickas.
+
+[server]
+address = "localhost"
+port = 8503              # kursappen använder 8501, utbytesappen 8502
+headless = true          # start.command öppnar webbläsaren själv
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[client]
+toolbarMode = "minimal"
+
+[theme.light]
+primaryColor = "#1f8a5b"
+
+[theme.dark]
+primaryColor = "#2fae75"
