@@ -4,8 +4,8 @@ Lokal app som söker igenom licensierade kasinon efter freespins och andra bonus
 omsättningskrav på insättningen**. Omsättningskrav på bara bonusen eller freespinvinsterna är OK.
 
 Starta med att dubbelklicka på `start.command`, eller kör `./start.command`. Appen öppnas på
-http://localhost:8503 och lyssnar bara på din egen dator. Ingen telemetri skickas. Allt i `data/`
-(dina markeringar, sidcache och sökresultat) stannar lokalt och följer inte med till git.
+http://localhost:8503 och lyssnar bara på din egen dator. Ingen telemetri skickas. I git följer dina markeringar
+(`data/mina.json`) och licensregistren med; sidcache, sökresultat och loggar stannar lokalt.
 
 ## Hur det fungerar
 

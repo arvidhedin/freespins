@@ -1,5 +1,13 @@
-# Personligt och tredjepartsdata – stannar lokalt (skapas av appen: kör start.command)
-data/
+# data/: dina markeringar och licensregistren följer med (små, bra som backup).
+# Sidcache (text från kasinosidorna), sökresultat, status och loggar stannar lokalt –
+# de är stora, skrivs om vid varje sökning och skapas på nytt av appen.
+data/*
+!data/mina.json
+!data/backups/
+!data/sedda.json
+!data/kasinon.json
+!data/mga_seal_cache.json
+
 __pycache__/
 .pytest_cache/
 .claude/

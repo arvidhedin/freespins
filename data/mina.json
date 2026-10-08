@@ -1,0 +1,18 @@
+{
+ "format": 1,
+ "installningar": {
+  "rtp": 0.96,
+  "spinvarde": 1.0,
+  "visa_1x": false,
+  "max_sidor": 6,
+  "parallella": 8,
+  "chrome_flikar": 6,
+  "chrome": true,
+  "respektera_robots": true,
+  "notis_min_ev": 0.0,
+  "schema_tid": "08:00"
+ },
+ "anvanda": {},
+ "granskningar": {},
+ "dolda": {}
+}
